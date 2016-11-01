@@ -15,7 +15,7 @@ http://www.templatemo.com/preview/templatemo_428_kool_store
     <meta name="viewport" content="width=device-width">
 
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet">
-   
+
     <link rel="stylesheet" href=<?php bloginfo(template_url); echo "/css/bootstrap.css"?>>
     <link rel="stylesheet" href=<?php bloginfo(template_url); echo "/css/normalize.min.css"?>>
     <link rel="stylesheet" href=<?php bloginfo(template_url); echo "/css/font-awesome.min.css"?>>
@@ -40,8 +40,8 @@ http://www.templatemo.com/preview/templatemo_428_kool_store
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
                         <div class="top-header-left">
-                            <a href="http://kool:8090/wp-login.php">Sign Up</a>
-                            <a href="http://kool:8090/wp-login.php">Log In</a>
+                            <a href=<?php echo site_url(); echo "/wp-login.php"?>>Sign Up</a>
+                            <a href=<?php echo site_url(); echo "/wp-login.php"?>>Log In</a>
                         </div> <!-- /.top-header-left -->
                     </div> <!-- /.col-md-6 -->
                     <div class="col-md-6 col-sm-6">
@@ -63,7 +63,7 @@ http://www.templatemo.com/preview/templatemo_428_kool_store
                 <div class="row">
                     <div class="col-md-4 col-sm-6 col-xs-8">
                         <div class="logo">
-                            <h1><a href="#">Kool Store</a></h1>
+                            <h1><a href=<?php echo site_url(); echo "/index.php";?>>Kool Store</a></h1>
                         </div> <!-- /.logo -->
                     </div> <!-- /.col-md-4 -->
                     <div class="col-md-8 col-sm-6 col-xs-4">
@@ -72,7 +72,7 @@ http://www.templatemo.com/preview/templatemo_428_kool_store
                                 <i class="fa fa-bars"></i>
                             </a>
                             <ul class="menu">
-                                <li><a href="#">Home</a></li>
+                                <li><a href=<a href=<?php echo site_url(); echo "/index.php"?>>Home</a></li>
                                 <li><a href="#">Catalogs</a></li>
                                 <li><a href="#">FAQs</a></li>
                                 <li><a href="#">Policies</a></li>
