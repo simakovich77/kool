@@ -15,7 +15,7 @@ http://www.templatemo.com/preview/templatemo_428_kool_store
     <meta name="viewport" content="width=device-width">
 
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet">
-    <?php bloginfo(template_url); echo "/css/bootstrap.css"; ?>
+   
     <link rel="stylesheet" href=<?php bloginfo(template_url); echo "/css/bootstrap.css"?>>
     <link rel="stylesheet" href=<?php bloginfo(template_url); echo "/css/normalize.min.css"?>>
     <link rel="stylesheet" href=<?php bloginfo(template_url); echo "/css/font-awesome.min.css"?>>
