@@ -23,7 +23,7 @@ http://www.templatemo.com/preview/templatemo_428_kool_store
     <link rel="stylesheet" href=<?php bloginfo(template_url); echo "/css/templatemo-misc.css"?>>
     <link rel="stylesheet" href=<?php bloginfo(template_url); echo "/css/templatemo-style.css"?>>
 
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src=<?php bloginfo(template_url); echo "js/vendor/modernizr-2.6.2.min.js"; ?>></script>
 
 </head>
 <body>
@@ -40,8 +40,8 @@ http://www.templatemo.com/preview/templatemo_428_kool_store
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
                         <div class="top-header-left">
-                            <a href="#">Sign Up</a>
-                            <a href="#">Log In</a>
+                            <a href="http://kool:8090/wp-login.php">Sign Up</a>
+                            <a href="http://kool:8090/wp-login.php">Log In</a>
                         </div> <!-- /.top-header-left -->
                     </div> <!-- /.col-md-6 -->
                     <div class="col-md-6 col-sm-6">
@@ -126,7 +126,7 @@ http://www.templatemo.com/preview/templatemo_428_kool_store
                     <div class="product-holder">
                         <div class="product-item-2">
                             <div class="product-thumb">
-                               
+
                                 <img src=<?php bloginfo(template_url); echo "/images/featured/1.jpg";?> alt="Product Title">
                             </div> <!-- /.product-thumb -->
                             <div class="product-content overlay">
