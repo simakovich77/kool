@@ -14,6 +14,9 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
 
+
+
+
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet">
 
     <link rel="stylesheet" href=<?php bloginfo(template_url); echo "/css/bootstrap.css"?>>
@@ -24,6 +27,7 @@
     <link rel="stylesheet" href=<?php bloginfo(template_url); echo "/css/templatemo-style.css"?>>
 
     <script src=<?php bloginfo(template_url); echo "/js/vendor/modernizr-2.6.2.min.js"; ?>></script>
+
 
 </head>
 <body>
@@ -68,6 +72,12 @@
                 </div> <!-- /.col-md-4 -->
                 <div class="col-md-8 col-sm-6 col-xs-4">
                     <div class="main-menu">
+
+
+
+
+
+
                         <a href="#" class="toggle-menu">
                             <i class="fa fa-bars"></i>
                         </a>
@@ -83,16 +93,18 @@
             </div> <!-- /.row -->
         </div> <!-- /.container -->
     </div> <!-- /.main-header -->
+
     <div class="main-nav">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-7">
                     <div class="list-menu">
-                        <ul>
-                            <li><a href="index.html">Shop</a></li>
-                            <li><a href="product-detail.html">Details</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
+                        <nav>
+                            <?php wp_nav_menu(array(
+                                'primary' => 'my_menu_location',
+                                'items_wrap' => my_nav_wrap()
+                            )); ?>
+                        </nav>
                     </div> <!-- /.list-menu -->
                 </div> <!-- /.col-md-6 -->
                 <div class="col-md-6 col-sm-5">
@@ -103,4 +115,5 @@
             </div> <!-- /.row -->
         </div> <!-- /.container -->
     </div> <!-- /.main-nav -->
+
 </header> <!-- /.site-header -->
