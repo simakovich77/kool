@@ -101,9 +101,11 @@
                     <div class="list-menu">
                         <nav>
                             <?php wp_nav_menu(array(
-                                'primary' => 'my_menu_location',
-                                'items_wrap' => my_nav_wrap()
-                            )); ?>
+                                'primary' => 'my_menu_location'
+
+                            ));
+                            //my_menu_location'items_wrap' => my_nav_wrap()
+                            ?>
                         </nav>
                     </div> <!-- /.list-menu -->
                 </div> <!-- /.col-md-6 -->
