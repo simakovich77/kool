@@ -1,0 +1,676 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mugu v1.0.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2016-11-08 08:09+0200\n"
+"Last-Translator: admin\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ mugu
+#: 404.php:14
+msgid "404"
+msgstr ""
+
+# @ mugu
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "К сожалению, страница не найдена"
+
+# @ mugu
+#: 404.php:17
+msgid "The page you are looking for does not exist. It may have been moved, or removed altogether. Perhaps you can return back to the site&rsquo;s homepage and maybe try a search?"
+msgstr "Страница, которую вы ищете не существует. Она может быть перемещена, или вообще удалена. Вы можете вернуться на главную страницу сайта и может там вы найдете то, что вы ищете."
+
+# @ mugu
+#: 404.php:22
+msgid "back to Home"
+msgstr "На главную"
+
+# @ mugu
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "Комментарии: %1$s"
+msgstr[1] "Комментарии: %1$s"
+msgstr[2] ""
+
+# @ mugu
+#: comments.php:51
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+# @ mugu
+#: comments.php:54
+msgid "Older Comments"
+msgstr "Предыдущие комментарии"
+
+# @ mugu
+#: comments.php:55
+msgid "Newer Comments"
+msgstr "Новые комментарии"
+
+# @ mugu
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+# @ mugu
+#: comments.php:79
+msgid "Required fields are marked"
+msgstr "Обязательные для заполнения поля отмечены"
+
+# @ mugu
+#: comments.php:84
+msgid "Name*"
+msgstr "Имя *"
+
+# @ mugu
+#: comments.php:88
+msgid "Email*"
+msgstr "Почта *"
+
+# @ mugu
+#: comments.php:92
+msgid "Website"
+msgstr "Сайт"
+
+# @ mugu
+#: comments.php:102
+msgid "Leave a Reply"
+msgstr "Отставить комментарий"
+
+# @ mugu
+#: comments.php:103
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Оставить комментарий на %s"
+
+# @ mugu
+#: comments.php:104
+msgid "Cancel Reply"
+msgstr "Отменить ответ"
+
+# @ mugu
+#: comments.php:105
+msgid "POST COMMENT"
+msgstr "Комментировать"
+
+# @ mugu
+#: comments.php:109
+msgid "Comment"
+msgstr "Комментарий"
+
+# @ mugu
+#: comments.php:114
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Вы должны <a href=\"%s\">войти</a>, чтобы оставлять комментарии."
+
+# @ mugu
+#: comments.php:120
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr "Вы вошли как <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Выйти из этого аккаунта\">Выйти?</a>"
+
+# @ mugu
+#: comments.php:127
+msgid "Your email address will not be published. "
+msgstr "Ваш электронный адрес не будет опубликован."
+
+# @ mugu
+#: footer.php:23
+msgid "<span class=\"fa fa-long-arrow-left\"></span>"
+msgstr ""
+
+# @ mugu
+#: footer.php:24
+msgid "<span class=\"fa fa-long-arrow-right\"></span>"
+msgstr ""
+
+# @ mugu
+#: functions.php:49
+msgid "Primary"
+msgstr "Основное меню"
+
+# @ mugu
+#: functions.php:149
+msgid "Right Sidebar"
+msgstr "Правый сайдбар"
+
+# @ mugu
+#: functions.php:151
+msgid "Add widgets here."
+msgstr "Добавление виджетов здесь."
+
+# @ mugu
+#: functions.php:159
+msgid "Footer One"
+msgstr "Первый нижний колонтитул"
+
+# @ mugu
+#: functions.php:169
+msgid "Footer Two"
+msgstr "Второй нижний колонтитул"
+
+# @ mugu
+#: functions.php:179
+msgid "Footer Three"
+msgstr "Третий нижний колонтитул"
+
+# @ mugu
+#: inc/customizer.php:18
+msgid "Choose Post"
+msgstr "Выбрать тип записи"
+
+# @ mugu
+#: inc/customizer.php:33
+msgid "Choose Category"
+msgstr "Выберите категорию"
+
+# @ mugu
+#: inc/customizer.php:43
+msgid "Default Settings"
+msgstr "Настройки по умолчанию"
+
+# @ mugu
+#: inc/customizer.php:44
+msgid "Default section provided by wordpress customizer."
+msgstr "Секция по умолчанию, предоставляемый настройщиком WordPress."
+
+# @ mugu
+#: inc/customizer.php:61
+msgid "Home Page Settings"
+msgstr "Настройки главной страницы"
+
+# @ mugu
+#: inc/customizer.php:62
+msgid "Customize Home Page Settings"
+msgstr "Настройка параметров домашней страницы"
+
+# @ mugu
+#: inc/customizer.php:67
+msgid "Featured Section"
+msgstr "Закрепленная секция"
+
+# @ mugu
+#: inc/customizer.php:79
+msgid "Enable Featured Section"
+msgstr "Включить закрепленный раздел"
+
+# @ mugu
+#: inc/customizer.php:91
+msgid "Select Featured Post One"
+msgstr "Выберите первую запись для раздела"
+
+# @ mugu
+#: inc/customizer.php:104
+msgid "Select Featured Post Two"
+msgstr "Выберите вторую запись для раздела"
+
+# @ mugu
+#: inc/customizer.php:117
+msgid "Select Featured Post Three"
+msgstr "Выберите третью запись для раздела"
+
+# @ mugu
+#: inc/customizer.php:130
+msgid "Select Featured Post Four"
+msgstr "Выберите четвертую запись для раздела"
+
+# @ mugu
+#: inc/customizer.php:141
+msgid "Recent and Popular Posts Section"
+msgstr "Последние и популярные публикации"
+
+# @ mugu
+#: inc/customizer.php:153
+msgid "Enable Recent and Popular Posts Section "
+msgstr "Включить последние и популярные сообщения "
+
+# @ mugu
+#: inc/customizer.php:160 inc/extra.php:318
+msgid "Latest"
+msgstr "Последнее"
+
+# @ mugu
+#: inc/customizer.php:165
+msgid "Label For Button One"
+msgstr "Кнопка 1"
+
+# @ mugu
+#: inc/customizer.php:172 inc/extra.php:319
+msgid "Popular"
+msgstr "Популярные записи"
+
+# @ mugu
+#: inc/customizer.php:177
+msgid "Label For Button Two"
+msgstr "Кнопка 2"
+
+# @ mugu
+#: inc/customizer.php:185
+msgid "Category section"
+msgstr "Выберите категорию для домашней страницы."
+
+# @ mugu
+#: inc/customizer.php:197
+msgid "Select Category One"
+msgstr "Вберите первую рубрику"
+
+# @ mugu
+#: inc/customizer.php:210
+msgid "Select Category Two"
+msgstr "Вберите вторую рубрику"
+
+# @ mugu
+#: inc/customizer.php:223
+msgid "Select Category Three"
+msgstr "Вберите третью рубрику"
+
+# @ mugu
+#: inc/customizer.php:236
+msgid "Select Category Four"
+msgstr "Вберите четвертую рубрику"
+
+# @ mugu
+#: inc/customizer.php:247
+msgid "Breadcrumb Settings"
+msgstr "Хлебные крошки"
+
+# @ mugu
+#: inc/customizer.php:259
+msgid "Enable Breadcrumb"
+msgstr "Включить \"хлебные крошки\""
+
+# @ mugu
+#: inc/customizer.php:271
+msgid "Show current"
+msgstr "Показать текущее положение"
+
+# @ mugu
+#: inc/customizer.php:278 inc/extra.php:101
+msgid "Home"
+msgstr "Главная"
+
+# @ mugu
+#: inc/customizer.php:283
+msgid "Breadcrumb Home Text"
+msgstr "Хлебные крошки - Главная"
+
+# @ mugu
+#: inc/customizer.php:290 inc/extra.php:100
+msgid ">"
+msgstr ""
+
+# @ mugu
+#: inc/customizer.php:295
+msgid "Breadcrumb Separator"
+msgstr "Разделитель элементов хлебных крошек"
+
+# @ mugu
+#: inc/customizer.php:305
+msgid "Avertisement Settings"
+msgstr "Настройки рекламы"
+
+# @ mugu
+#: inc/customizer.php:306
+msgid "Header & Footer AD Settings"
+msgstr "Реклама в шапке и футере"
+
+# @ mugu
+#: inc/customizer.php:324
+msgid "Enable Header Advertisement"
+msgstr "Включить рекламу в шапке"
+
+# @ mugu
+#: inc/customizer.php:342
+msgid "Open Link in Different Tab"
+msgstr "Открывать ссылку в новой вкладке"
+
+# @ mugu
+#: inc/customizer.php:362
+msgid "Upload Header Advertisement"
+msgstr "Загрузить рекламу"
+
+# @ mugu
+#: inc/customizer.php:382
+msgid "Header AD Link"
+msgstr "Ссылка рекламы в шапке"
+
+# @ mugu
+#: inc/customizer.php:392
+msgid "Color Scheme"
+msgstr "Цветовая схема"
+
+# @ mugu
+#: inc/customizer.php:408
+msgid "Theme Color"
+msgstr "Цвет темы"
+
+# @ mugu
+#: inc/customizer.php:409
+msgid "Change the Theme Color scheme from here."
+msgstr "Выберите цветовую схему"
+
+# @ mugu
+#: inc/customizer.php:419
+msgid "Custom CSS Settings"
+msgstr "Пользовательские CSS настройки"
+
+# @ mugu
+#: inc/customizer.php:437
+msgid "Custom Css"
+msgstr "Пользовательские CSS"
+
+# @ mugu
+#: inc/customizer.php:439
+msgid "Put your custom CSS"
+msgstr "Вставьте здесь свой CSS"
+
+# @ mugu
+#: inc/extra.php:123
+msgid "Search Result"
+msgstr "Результаты поиска"
+
+# @ mugu
+#: inc/extra.php:189
+msgid "404 Error - Page not Found"
+msgstr "Ошибка 404 - Страница не найдена"
+
+# @ mugu
+#: inc/extra.php:198
+msgid "Page"
+msgstr "Страница"
+
+# @ mugu
+#: inc/extra.php:366 inc/extra.php:453 inc/extra.php:667
+#: inc/widget-featured-post.php:39 inc/widget-featured-post.php:95
+#: inc/widget-featured-post.php:135
+msgid "Read More"
+msgstr "Читать далее"
+
+# @ mugu
+#: inc/extra.php:510
+#, php-format
+msgid "<b class=\"fn\"><a href=\"<?php get_the_author(); ?>\">%s</a></b>"
+msgstr ""
+
+# @ mugu
+#: inc/extra.php:513
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает модерации."
+
+# @ mugu
+#. translators: 1: date, 2: time
+#: inc/extra.php:520
+#, php-format
+msgid "%s"
+msgstr ""
+
+# @ mugu
+#: inc/extra.php:520
+msgid "(Edit)"
+msgstr "Изменить"
+
+# @ mugu
+#: inc/extra.php:555
+msgid "Copyright &copy; "
+msgstr "Все права защищены &copy;"
+
+# @ mugu
+#: inc/extra.php:557
+msgid "Mugu by: Rara Theme"
+msgstr ""
+
+# @ mugu
+#: inc/extra.php:558
+#, php-format
+msgid "Powered by: %s"
+msgstr ""
+
+# @ mugu
+#: inc/extra.php:558
+msgid "https://wordpress.org/"
+msgstr ""
+
+# @ mugu
+#. translators: used between list items, there is a space after the comma
+#: inc/extra.php:618 inc/template-tags.php:122
+msgid ", "
+msgstr ""
+
+# @ mugu
+#: inc/extra.php:620 inc/template-tags.php:55 inc/template-tags.php:124
+#: inc/widget-popular-post.php:74 inc/widget-recent-post.php:71
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+# @ mugu
+#: inc/extra.php:641 inc/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+# @ mugu
+#. translators: %s: post title
+#: inc/extra.php:652 inc/template-tags.php:37
+msgid "Leave a Comment"
+msgstr "Оставить комментарий"
+
+# @ mugu
+#: inc/extra.php:654
+msgid " Comments"
+msgstr "Комментарии"
+
+# @ mugu
+#: inc/extra.php:656
+msgid "1 Comment"
+msgstr "Один комментарий"
+
+# @ mugu
+#: inc/metabox.php:13
+msgid "Sidebar Layout"
+msgstr "Структура сайдбара"
+
+# @ mugu
+#: inc/metabox.php:25
+msgid "Right Sidebar(default)"
+msgstr "Правый сайдбар (по умолчанию)"
+
+# @ mugu
+#: inc/metabox.php:30
+msgid "No Sidebar"
+msgstr "Без сайдбара"
+
+# @ mugu
+#: inc/metabox.php:42
+msgid "Choose Sidebar Template"
+msgstr "Выберите шаблон боковой панели"
+
+# @ mugu
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#: inc/template-tags.php:61 template-parts/content-page.php:39
+#, php-format
+msgid "Edit %s"
+msgstr "Изменить"
+
+# @ mugu
+#: inc/widget-featured-post.php:25
+msgid "RARA: Featured Post"
+msgstr ""
+
+# @ mugu
+#: inc/widget-featured-post.php:26
+msgid "A Featured Post Widget"
+msgstr ""
+
+# @ mugu
+#: inc/widget-featured-post.php:83
+msgid "--Choose--"
+msgstr ""
+
+# @ mugu
+#: inc/widget-featured-post.php:100
+msgid "Posts"
+msgstr ""
+
+# @ mugu
+#: inc/widget-featured-post.php:110
+msgid "Read More Text"
+msgstr ""
+
+# @ mugu
+#: inc/widget-featured-post.php:116 inc/widget-popular-post.php:119
+#: inc/widget-recent-post.php:115
+msgid "Show Post Thumbnail"
+msgstr ""
+
+# @ mugu
+#: inc/widget-popular-post.php:25
+msgid "RARA: Popular Post"
+msgstr ""
+
+# @ mugu
+#: inc/widget-popular-post.php:26
+msgid "A Popular Post Widget"
+msgstr ""
+
+# @ mugu
+#: inc/widget-popular-post.php:40 inc/widget-popular-post.php:100
+#: inc/widget-popular-post.php:143
+msgid "Popular Posts"
+msgstr ""
+
+# @ mugu
+#: inc/widget-popular-post.php:108 inc/widget-recent-post.php:104
+#: inc/widget-social-links.php:92
+msgid "Title"
+msgstr ""
+
+# @ mugu
+#: inc/widget-popular-post.php:113 inc/widget-recent-post.php:109
+msgid "Number of Posts"
+msgstr ""
+
+# @ mugu
+#: inc/widget-popular-post.php:124 inc/widget-recent-post.php:120
+msgid "Show Post Date"
+msgstr ""
+
+# @ mugu
+#: inc/widget-recent-post.php:25
+msgid "RARA: Recent Post"
+msgstr ""
+
+# @ mugu
+#: inc/widget-recent-post.php:26
+msgid "A Recent Post Widget"
+msgstr ""
+
+# @ mugu
+#: inc/widget-recent-post.php:40 inc/widget-recent-post.php:96
+#: inc/widget-recent-post.php:139
+msgid "Recent Posts"
+msgstr ""
+
+# @ mugu
+#: inc/widget-social-links.php:25
+msgid "RARA: Social Links"
+msgstr ""
+
+# @ mugu
+#: inc/widget-social-links.php:26
+msgid "A Social Links Widget"
+msgstr ""
+
+# @ mugu
+#: inc/widget-social-links.php:40 inc/widget-social-links.php:81
+#: inc/widget-social-links.php:142
+msgid "Subscribe & Follow"
+msgstr ""
+
+# @ mugu
+#: inc/widget-social-links.php:54 inc/widget-social-links.php:97
+msgid "Facebook"
+msgstr ""
+
+# @ mugu
+#: inc/widget-social-links.php:56 inc/widget-social-links.php:102
+msgid "Instagram"
+msgstr ""
+
+# @ mugu
+#: inc/widget-social-links.php:58 inc/widget-social-links.php:107
+msgid "Twitter"
+msgstr ""
+
+# @ mugu
+#: inc/widget-social-links.php:60 inc/widget-social-links.php:112
+msgid "Pinterest"
+msgstr ""
+
+# @ mugu
+#: inc/widget-social-links.php:62
+msgid "Linkedin"
+msgstr ""
+
+# @ mugu
+#: inc/widget-social-links.php:64 inc/widget-social-links.php:122
+msgid "YouTube"
+msgstr ""
+
+# @ mugu
+#: inc/widget-social-links.php:117
+msgid "LinkedIn"
+msgstr ""
+
+# @ mugu
+#. translators: %s: Name of current post.
+#: template-parts/content-archive.php:44 template-parts/content.php:48
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Читать далее %s <span class=\"meta-nav\">&rarr;</span>"
+
+# @ mugu
+#: template-parts/content-archive.php:53 template-parts/content-page.php:27
+#: template-parts/content.php:57
+msgid "Pages:"
+msgstr "Страницы:"
+
+# @ mugu
+#: template-parts/content-none.php:15
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+# @ mugu
+#: template-parts/content-none.php:20
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните сейчас</a>."
+
+# @ mugu
+#: template-parts/content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "К сожалению, по вашему запросу ничего не найдено. Попробуйте использовать другие ключевые слова."
+
+# @ mugu
+#: template-parts/content-none.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Кажется, мы не можем найти то, что вы ищете. Возможно поиск сможет помочь."
