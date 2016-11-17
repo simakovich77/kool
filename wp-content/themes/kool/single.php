@@ -42,7 +42,7 @@ get_header(); ?>
 				</div> <!-- /.col-md-8 -->
 				<div class="col-md-4 col-sm-8">
 					<div class="product-item-2">
-						<div class="product-thumb">
+						
 
 							<?php
 							/**
@@ -56,10 +56,6 @@ get_header(); ?>
 							get_sidebar(); ?>
 
 
-						</div> <!-- /.product-thumb -->
-						<div class="product-content overlay">
-
-						</div> <!-- /.product-content -->
 					</div> <!-- /.product-item-2 -->
 				</div> <!-- /.col-md-4 -->
 			</div> <!-- /.row -->
