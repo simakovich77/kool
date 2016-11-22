@@ -1,7 +1,6 @@
 
 <?php get_header(); ?>
-<?php
-get_template_part('content') ?>
-?>
+<?php kool_get_block_part('front', 'news'); ?>
+<?php kool_get_block_part('front', 'shop'); ?>
 
 <?php get_footer(); ?>

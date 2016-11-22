@@ -5,100 +5,52 @@
  * Used for both single and index/archive/search.
  *
  * @package WordPress
- * @subpackage Twenty_Fourteen
- * @since Twenty Fourteen 1.0
+ * @subpackage Twenty_Fifteen
+ * @since Twenty Fifteen 1.0
  */
-
-
-$postp = get_posts( array(
-	'numberposts'     => 4, // тоже самое что posts_per_page
-	'offset'          => 0,
-	'category'        => '',
-	'orderby'         => 'post_date',
-	'order'           => 'DESC',
-	'include'         => '',
-	'exclude'         => '',
-	'meta_key'        => '',
-	'meta_value'      => '',
-	'post_type'       => 'post',
-	'post_mime_type'  => '', // image, video, video/mp4
-	'post_parent'     => '',
-	'post_status'     => 'publish'
-) );
-
 ?>
 
 
+<div class="col-md-6">
 
-<!--News block -->
-<div class="content-section">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 section-title">
-				<h2>News</h2>
-			</div> <!-- /.section -->
-		</div> <!-- /.row -->
-		<div class="row">
+	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-			<?php foreach ($postp as $posts) : ?>
+			<header class="entry-header">
+			<?php
+			if ( is_single() ) :
+				the_title( '<h1 class="entry-title">', '</h1>' );
+			else :
+				the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
+			endif;
+			?>
+		</header><!-- .entry-header -->
 
-			<div class="col-md-3 col-sm-6">
-				<div class="product-item">
-					<div class="product-thumb">
+		<div class="entry-content">
 
-						<?php echo get_the_post_thumbnail($posts); ?>
-					</div> <!-- /.product-thum -->
 
-					<div class="product-content">
-						<h5><a href="#"><?=get_the_title($posts); ?></a></h5>
-						<span class="price"><?=get_the_excerpt($posts); ?></span>
-						<div class="btn-toolbar text-center">
-						<a href="<?php echo get_permalink($boat); ?>" role="button" class="btn btn-primary pull-right">Details</a>
+
+			<?php
+			/* translators: %s: Name of current post */
+			the_excerpt();
+
+
+
+
+			wp_link_pages( array(
+				'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'kool' ) . '</span>',
+				'after'       => '</div>',
+				'link_before' => '<span>',
+				'link_after'  => '</span>',
+				'pagelink'    => '<span class="screen-reader-text">' . __( 'Page', 'kool' ) . ' </span>%',
+				'separator'   => '<span class="screen-reader-text">, </span>',
+			) );
+			?>
+		</div><!-- .entry-content -->
+
+
+		<footer class="entry-footer">
+			<?php edit_post_link( __( 'Edit', 'kool' ), '<span class="edit-link">', '</span>' ); ?>
+		</footer><!-- .entry-footer -->
+
+	</article><!-- #post-## -->
 </div>
-					</div> <!-- /.product-content -->
-				</div> <!-- /.product-item -->
-			</div> <!-- /.col-md-3 -->
-
-			<?php endforeach; ?>
-
-		</div> <!-- /.row -->
-	</div> <!-- /.container -->
-</div> <!-- /.content-section -->
-
-
-<!--Goods block -->
-<div class="content-section">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 section-title">
-				<h2>Goods</h2>
-			</div> <!-- /.section -->
-		</div> <!-- /.row -->
-		<div class="row">
-
-			<?php foreach ($postp as $posts) : ?>
-
-				<div class="col-md-3 col-sm-6">
-					<div class="product-item">
-						<div class="product-thumb">
-<?php
-							//function do_shortcode([product_page id="1"]);
-?>
-							<?php echo get_the_post_thumbnail($posts); ?>
-						</div> <!-- /.product-thum -->
-
-						<div class="product-content">
-							<
-							<span class="price"><?=get_the_excerpt($posts); ?></span>
-
-						</div> <!-- /.product-content -->
-					</div> <!-- /.product-item -->
-				</div> <!-- /.col-md-3 -->
-
-			<?php endforeach; ?>
-
-		</div> <!-- /.row -->
-	</div> <!-- /.container -->
-</div> <!-- /.content-section -->
-
-

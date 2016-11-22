@@ -1,69 +1,48 @@
 <?php
 /**
- * The Template for displaying all single posts
+ * The template for displaying all single posts and attachments
  *
  * @package WordPress
- * @subpackage Twenty_Fourteen
- * @since Twenty Fourteen 1.0
+ * @subpackage Twenty_Fifteen
+ * @since Twenty Fifteen 1.0
  */
 
 get_header(); ?>
 
+<div class="container">
 
 
+		<?php
+		// Start the loop.
+		while ( have_posts() ) : the_post();
 
-	<div class="content-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8">
+			/*
+			 * Include the post format-specific template for the content. If you want to
+			 * use this in a child theme, then include a file called called content-___.php
+			 * (where ___ is the post format) and that will be used instead.
+			 */
+			get_template_part( 'content', 'post' );
 
-					<div class="product-information">
-						<?php
-						// Start the Loop.
-						while ( have_posts() ) : the_post();
+			// If comments are open or we have at least one comment, load up the comment template.
+			if ( comments_open() || get_comments_number() ) :
+				comments_template();
+			endif;
 
-							/*
-                             * Include the post format-specific template for the content. If you want to
-                             * use this in a child theme, then include a file called called content-___.php
-                             * (where ___ is the post format) and that will be used instead.
-                             */
-							get_template_part( 'content', get_post_format() );
+			// Previous/next post navigation.
+			the_post_navigation( array(
+				'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next', 'kool' ) . '</span> ' .
+					'<span class="screen-reader-text">' . __( 'Next post:', 'kool' ) . '</span> ' .
+					'<span class="post-title">%title</span>',
+				'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Previous', 'meat' ) . '</span> ' .
+					'<span class="screen-reader-text">' . __( 'Previous post:', 'kool' ) . '</span> ' .
+					'<span class="post-title">%title</span>',
+			) );
 
-
-
-
-							// If comments are open or we have at least one comment, load up the comment template.
-							if ( comments_open() || get_comments_number() ) {
-								comments_template();
-							}
-						endwhile;
-						?>
-					</div> <!-- /.product-information -->
-				</div> <!-- /.col-md-8 -->
-				<div class="col-md-4 col-sm-8">
-					<div class="product-item-2">
-						
-
-							<?php
-							/**
-							 * The Template for displaying all single posts
-							 *
-							 * @package WordPress
-							 * @subpackage Twenty_Fourteen
-							 * @since Twenty Fourteen 1.0
-							 */
-
-							get_sidebar(); ?>
+			// End the loop.
+		endwhile;
+		?>
 
 
-					</div> <!-- /.product-item-2 -->
-				</div> <!-- /.col-md-4 -->
-			</div> <!-- /.row -->
-		</div> <!-- /.container -->
-	</div> <!-- /.content-section -->
+</div><!-- .content-area -->
 
-
-<?php
-
-get_footer();
-?>
+<?php get_footer(); ?>
