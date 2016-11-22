@@ -27,17 +27,15 @@
 
 
 
-    <div class="product-content overlay">
-
-        <h5><a href="#">Name Of Shirt</a></h5>
-        <span class="tagline">Partner Name</span>
-        <span class="price">$40.00</span>
-        <p>Doloremque quo possimus quas necessitatibus blanditiis excepturi. Commodi, sunt tenetur deleniti labore!</p>
-    </div> <!-- /.product-content -->
-</div> <!-- /.product-item-2 -->
 
 
 
+                        </div>
 
-    </div><!-- .entry-content -->
+                        </div>
+    </div>
+            </div>
+        </div>
+    </div>
+                <!-- .entry-content -->
 </article><!-- #post-## -->
