@@ -8,64 +8,169 @@
  * @subpackage Twenty_Fourteen
  * @since Twenty Fourteen 1.0
  */
+
+
+$postp = get_posts( array(
+	'numberposts'     => 4, // тоже самое что posts_per_page
+	'offset'          => 0,
+	'category'        => '',
+	'orderby'         => 'post_date',
+	'order'           => 'DESC',
+	'include'         => '',
+	'exclude'         => '',
+	'meta_key'        => '',
+	'meta_value'      => '',
+	'post_type'       => 'post',
+	'post_mime_type'  => '', // image, video, video/mp4
+	'post_parent'     => '',
+	'post_status'     => 'publish'
+) );
+
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php  ?>
-
-	<header class="entry-header">
-		<?php if ( in_array( 'category', get_object_taxonomies( get_post_type() ) )  ) : ?>
-			<div class="entry-meta">
-				<span class="cat-links"><?php echo get_the_category_list( _x( ', ', 'Used between list items, there is a space after the comma.', 'kool' ) ); ?></span>
-			</div>
-			<?php
-		endif;
-
-		if ( is_single() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
-		else :
-			the_title( '<h1 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h1>' );
-		endif;
-		?>
-
-		<div class="entry-meta">
-			<?php
-			if ( 'post' == get_post_type() )
 
 
-			if ( ! post_password_required() && ( comments_open() || get_comments_number() ) ) :
-				?>
-				<span class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'kool' ), __( '1 Comment', 'kool' ), __( '% Comments', 'kool' ) ); ?></span>
-				<?php
-			endif;
 
-			edit_post_link( __( 'Edit', 'kool' ), '<span class="edit-link">', '</span>' );
-			?>
-		</div><!-- .entry-meta -->
-	</header><!-- .entry-header -->
+<div class="content-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 section-title">
+				<h2>News</h2>
+			</div> <!-- /.section -->
+		</div> <!-- /.row -->
+		<div class="row">
 
-	<?php if ( is_search() ) : ?>
-		<div class="entry-summary">
-			<?php the_excerpt(); ?>
-		</div><!-- .entry-summary -->
-	<?php else : ?>
-		<div class="entry-content">
-			<?php
-			/* translators: %s: Name of current post */
-			the_content( sprintf(
-				__( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'twentyfourteen' ),
-				the_title( '<span class="screen-reader-text">', '</span>', false )
-			) );
+			<?php foreach ($postp as $posts) : ?>
 
-			wp_link_pages( array(
-				'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'kool' ) . '</span>',
-				'after'       => '</div>',
-				'link_before' => '<span>',
-				'link_after'  => '</span>',
-			) );
-			?>
-		</div><!-- .entry-content -->
-	<?php endif; ?>
+			<div class="col-md-3 col-sm-6">
+				<div class="product-item">
+					<div class="product-thumb">
 
-	<?php the_tags( '<footer class="entry-meta"><span class="tag-links">', '', '</span></footer>' ); ?>
-</article><!-- #post-## -->
+						<?php echo get_the_post_thumbnail($posts); ?>
+					</div> <!-- /.product-thum -->
+
+					<div class="product-content">
+						<h5><a href="#"><?=get_the_title($posts); ?></a></h5>
+						<span class="price"><?=get_the_excerpt($posts); ?></span>
+
+					</div> <!-- /.product-content -->
+				</div> <!-- /.product-item -->
+			</div> <!-- /.col-md-3 -->
+
+			<?php endforeach; ?>
+
+		</div> <!-- /.row -->
+	</div> <!-- /.container -->
+</div> <!-- /.content-section -->
+
+<div class="content-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 section-title">
+				<h2>Vote For Future Products</h2>
+			</div> <!-- /.section -->
+		</div> <!-- /.row -->
+		<div class="row">
+			<div class="col-md-3 col-sm-6">
+				<div class="product-item-vote">
+					<div class="product-thumb">
+						<img src="images/products/1.jpg" alt="">
+					</div> <!-- /.product-thum -->
+					<div class="product-content">
+						<h5><a href="#">Name of Shirt</a></h5>
+						<span class="tagline">By: Catherine</span>
+						<ul class="progess-bars">
+							<li>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"></div>
+									<span>4<i class="fa fa-heart"></i></span>
+								</div>
+							</li>
+							<li>
+								<div class="progress">
+									<div class="progress-bar comments" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+									<span class="comments">6<i class="fa fa-heart"></i></span>
+								</div>
+							</li>
+						</ul>
+					</div> <!-- /.product-content -->
+				</div> <!-- /.product-item-vote -->
+			</div> <!-- /.col-md-3 -->
+			<div class="col-md-3 col-sm-6">
+				<div class="product-item-vote">
+					<div class="product-thumb">
+						<img src="images/products/2.jpg" alt="">
+					</div> <!-- /.product-thum -->
+					<div class="product-content">
+						<h5><a href="#">Name of Shirt</a></h5>
+						<span class="tagline">By: Rebecca</span>
+						<ul class="progess-bars">
+							<li>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"></div>
+									<span>4<i class="fa fa-heart"></i></span>
+								</div>
+							</li>
+							<li>
+								<div class="progress">
+									<div class="progress-bar comments" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+									<span class="comments">6<i class="fa fa-heart"></i></span>
+								</div>
+							</li>
+						</ul>
+					</div> <!-- /.product-content -->
+				</div> <!-- /.product-item-vote -->
+			</div> <!-- /.col-md-3 -->
+			<div class="col-md-3 col-sm-6">
+				<div class="product-item-vote">
+					<div class="product-thumb">
+						<img src="images/products/3.jpg" alt="">
+					</div> <!-- /.product-thum -->
+					<div class="product-content">
+						<h5><a href="#">Name of Shirt</a></h5>
+						<span class="tagline">By: Catherine</span>
+						<ul class="progess-bars">
+							<li>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"></div>
+									<span>4<i class="fa fa-heart"></i></span>
+								</div>
+							</li>
+							<li>
+								<div class="progress">
+									<div class="progress-bar comments" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+									<span class="comments">6<i class="fa fa-heart"></i></span>
+								</div>
+							</li>
+						</ul>
+					</div> <!-- /.product-content -->
+				</div> <!-- /.product-item-vote -->
+			</div> <!-- /.col-md-3 -->
+			<div class="col-md-3 col-sm-6">
+				<div class="product-item-vote">
+					<div class="product-thumb">
+						<img src="images/products/4.jpg" alt="">
+					</div> <!-- /.product-thum -->
+					<div class="product-content">
+						<h5><a href="#">Name of Shirt</a></h5>
+						<span class="tagline">By: Rebecca</span>
+						<ul class="progess-bars">
+							<li>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"></div>
+									<span>4<i class="fa fa-heart"></i></span>
+								</div>
+							</li>
+							<li>
+								<div class="progress">
+									<div class="progress-bar comments" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+									<span class="comments">6<i class="fa fa-heart"></i></span>
+								</div>
+							</li>
+						</ul>
+					</div> <!-- /.product-content -->
+				</div> <!-- /.product-item-vote -->
+			</div> <!-- /.col-md-3 -->
+		</div> <!-- /.row -->
+	</div> <!-- /.container -->
+</div> <!-- /.content-section -->

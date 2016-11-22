@@ -1,25 +1,11 @@
 <?php
-function my_nav_wrap() {
-    // default value of 'items_wrap' is <ul id="%1$s" class="%2$s">%3$s</ul>'
 
-    // open the <ul>, set 'menu_class' and 'menu_id' values
-    $wrap  = '<ul id="%1$s" class="%2$s">';
+add_action( 'after_setup_theme', 'kool_setup' );
 
-    // get nav items as configured in /wp-admin/
-    $wrap .= '%3$s';
-
-    // the static link
-    $wrap .= '<li class="my-static-link"><a href="#">My Static Link</a></li>';
-
-    // close the <ul>
-    $wrap .= '</ul>';
-    // return the result
-    return $wrap;
-
+function kool_setup() {
+    add_theme_support( 'post-thumbnails' );
 }
 
-
-register_nav_menus( array(
-    'primary' => __( 'Primary Menu', 'kool' ),
-    'social'  => __( 'Social Links Menu', 'kool' ),
-) );
+function kool_get_block_part($slug, $name) {
+    get_template_part('blocks' . DIRECTORY_SEPARATOR . $slug, $name);
+}
