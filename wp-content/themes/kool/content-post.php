@@ -50,7 +50,7 @@
 
 
 
-                              echo do_shortcode( "[wpsc_products category_url_name='' limit_of_items='2']");
+                              echo do_shortcode( "[products skus='foo, bar, baz' orderby='date' order='desc']");
 ?>
 
 

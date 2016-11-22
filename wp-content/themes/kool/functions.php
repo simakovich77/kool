@@ -9,3 +9,4 @@ function kool_setup() {
 function kool_get_block_part($slug, $name) {
     get_template_part('blocks' . DIRECTORY_SEPARATOR . $slug, $name);
 }
+
