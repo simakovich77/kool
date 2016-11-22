@@ -38,13 +38,32 @@
 
 
 
-
                     <div class="col-md-4 col-sm-8">
                         <div class="product-item-2">
+
+                            <?php
+
+
+
+
+
+
+
+
+                              echo do_shortcode( "[wpsc_products category_url_name='' limit_of_items='2']");
+?>
+
+
+
+
+
                             <div class="product-thumb">
                                 <img src="images/featured/1.jpg" alt="Product Title">
                             </div> <!-- /.product-thumb -->
                             <div class="product-content overlay">
+
+
+
                                 <h5><a href="#">Name Of Shirt</a></h5>
                                 <span class="tagline">Partner Name</span>
                                 <span class="price">$30.00</span>
@@ -53,7 +72,7 @@
                         </div> <!-- /.product-item-2 -->
 
                     </div>
-            
+
 
 
 
