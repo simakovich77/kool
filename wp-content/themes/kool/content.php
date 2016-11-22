@@ -52,7 +52,9 @@ $postp = get_posts( array(
 					<div class="product-content">
 						<h5><a href="#"><?=get_the_title($posts); ?></a></h5>
 						<span class="price"><?=get_the_excerpt($posts); ?></span>
-
+						<div class="btn-toolbar text-center">
+						<a href="<?php echo get_permalink($boat); ?>" role="button" class="btn btn-primary pull-right">Details</a>
+</div>
 					</div> <!-- /.product-content -->
 				</div> <!-- /.product-item -->
 			</div> <!-- /.col-md-3 -->
@@ -86,7 +88,7 @@ $postp = get_posts( array(
 						</div> <!-- /.product-thum -->
 
 						<div class="product-content">
-							<h5><a href="#"><?=get_the_title($posts); ?></a></h5>
+							<
 							<span class="price"><?=get_the_excerpt($posts); ?></span>
 
 						</div> <!-- /.product-content -->
