@@ -79,7 +79,9 @@ $postp = get_posts( array(
 				<div class="col-md-3 col-sm-6">
 					<div class="product-item">
 						<div class="product-thumb">
-
+<?php
+							//function do_shortcode([product_page id="1"]);
+?>
 							<?php echo get_the_post_thumbnail($posts); ?>
 						</div> <!-- /.product-thum -->
 

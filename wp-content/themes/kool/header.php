@@ -34,7 +34,6 @@
 
 </head>
 <body>
-<?php bloginfo(template_url); echo "/js/vendor/modernizr-2.6.2.min.js"; ?>
 
 <!--[if lt IE 7]>
 <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
@@ -51,17 +50,7 @@
                         <a href=<?php echo site_url(); echo "/wp-login.php"?>>Log In</a>
                     </div> <!-- /.top-header-left -->
                 </div> <!-- /.col-md-6 -->
-                <div class="col-md-6 col-sm-6">
-                    <div class="social-icons">
-                        <ul>
-                            <li><a href="#" class="fa fa-facebook"></a></li>
-                            <li><a href="#" class="fa fa-dribbble"></a></li>
-                            <li><a href="#" class="fa fa-twitter"></a></li>
-                            <li><a href="#" class="fa fa-linkedin"></a></li>
-                        </ul>
-                        <div class="clearfix"></div>
-                    </div> <!-- /.social-icons -->
-                </div> <!-- /.col-md-6 -->
+               
             </div> <!-- /.row -->
         </div> <!-- /.container -->
     </div> <!-- /.top-header -->
@@ -112,11 +101,7 @@
                         </nav>
                     </div> <!-- /.list-menu -->
                 </div> <!-- /.col-md-6 -->
-                <div class="col-md-6 col-sm-5">
-                    <div class="notification">
-                        <span>Free Shipping on any order above $50</span>
-                    </div>
-                </div> <!-- /.col-md-6 -->
+
             </div> <!-- /.row -->
         </div> <!-- /.container -->
     </div> <!-- /.main-nav -->
