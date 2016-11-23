@@ -50,16 +50,21 @@
 
 
 
-                              echo do_shortcode( "[products skus='foo, bar, baz' orderby='date' order='desc']");
+                            add_theme_support( 'woocommerce' );
+
+                            if ( shortcode_exists( 'product_categories' ) ) {
+                                echo do_shortcode('[recent_products per_page="3" columns="1"]');
+                            }
 ?>
 
 
 
 
-
+<!--
                             <div class="product-thumb">
                                 <img src="images/featured/1.jpg" alt="Product Title">
-                            </div> <!-- /.product-thumb -->
+                            </div> /.product-thumb
+
                             <div class="product-content overlay">
 
 
@@ -68,8 +73,8 @@
                                 <span class="tagline">Partner Name</span>
                                 <span class="price">$30.00</span>
                                 <p>Doloremque quo possimus quas necessitatibus blanditiis excepturi. Commodi, sunt tenetur deleniti labore!</p>
-                            </div> <!-- /.product-content -->
-                        </div> <!-- /.product-item-2 -->
+                            </div> /.product-content
+                        </div> /.product-item-2 -->
 
                     </div>
 
