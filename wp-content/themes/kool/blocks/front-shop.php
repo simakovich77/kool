@@ -11,7 +11,7 @@
 
 
 
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
 
 
                     <div class="product-item">
@@ -25,7 +25,7 @@
                             add_theme_support( 'woocommerce' );
 
                             if ( shortcode_exists( 'product_categories' ) ) {
-                                echo do_shortcode('[recent_products per_page="3" columns="3"]');
+                                echo do_shortcode('[recent_products per_page="3" columns="4"]');
                             }
                             ?>
 

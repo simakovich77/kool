@@ -73,7 +73,7 @@
                                 <span class="tagline">Partner Name</span>
                                 <span class="price">$30.00</span>
                                 <p>Doloremque quo possimus quas necessitatibus blanditiis excepturi. Commodi, sunt tenetur deleniti labore!</p>
-                            </div> /.product-content
+                            </div> /.product-content -->
                         </div> /.product-item-2 -->
 
                     </div>
