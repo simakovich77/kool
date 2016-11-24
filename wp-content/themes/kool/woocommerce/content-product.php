@@ -23,6 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 global $product;
+global $woocommerce_loop;
 
 // Ensure visibility
 if ( empty( $product ) || ! $product->is_visible() ) {
@@ -31,7 +32,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 ?>
 
 
- <div class="col-md-4 col-sm-6">
+<div class="col-md-<?php echo $woocommerce_loop['columns']; ?>">
 
 <div class="product-item">
                         
