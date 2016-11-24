@@ -6,7 +6,9 @@
                 <div class="col-md-8">
                     <div class="product-image">
                         <?php the_title( '<h1 class="entry-title">', '</h1>' );?>
-                        <?php the_post_thumbnail([], ['align' => 'left']); ?>
+                        <?php 
+                        
+                        the_post_thumbnail('custom-size', ['align' => 'left']); ?>
                         <!--<img src="images/featured/7.jpg" alt="">-->
                     </div> <!-- /.product-image -->
                     <div class="product-information">

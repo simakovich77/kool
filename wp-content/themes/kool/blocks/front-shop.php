@@ -22,6 +22,8 @@
                         <div class="product-content">
 
                             <?php
+                           
+
                             add_theme_support( 'woocommerce' );
 
                             if ( shortcode_exists( 'product_categories' ) ) {
