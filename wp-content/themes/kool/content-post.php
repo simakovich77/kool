@@ -4,15 +4,25 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <div class="product-image">
+
+
+                    <div class="product-item-4">
+
+
                         <?php the_title( '<h1 class="entry-title">', '</h1>' );?>
-                        <?php 
-                        
-                        the_post_thumbnail('custom-size', ['align' => 'left']); ?>
+
+                        <?php the_post_thumbnail('custom-size', ['align' => 'left']); ?>
+
                         <!--<img src="images/featured/7.jpg" alt="">-->
                     </div> <!-- /.product-image -->
+
+
                     <div class="product-information">
+
+
                         <div class="entry-content">
+
+
                             <?php
                             the_content();
                             wp_link_pages( array(
