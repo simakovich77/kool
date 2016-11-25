@@ -46,7 +46,7 @@ $postp = get_posts( array(
                     <div class="product-item">
                         <div class="product-thumb">
 
-                            <?php echo get_the_post_thumbnail($posts); ?>
+                            <?php echo get_the_post_thumbnail($posts,'custom-size'); ?>
                         </div> <!-- /.product-thum -->
 
                         <div class="product-content">
