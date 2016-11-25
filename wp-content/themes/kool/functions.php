@@ -12,6 +12,6 @@ function kool_get_block_part($slug, $name) {
 
 if ( function_exists( 'add_theme_support' ) ) {
     add_theme_support( 'post-thumbnails' );
-    add_image_size( 'custom-size', 150, 150, true);
+    add_image_size( 'custom-size', 320, 240, true);
 }
 
