@@ -64,22 +64,8 @@
                 </div> <!-- /.col-md-4 -->
                 <div class="col-md-8 col-sm-6 col-xs-4">
                     <div class="main-menu">
-
-
-
-
-
-
-                        <a href="#" class="toggle-menu">
-                            <i class="fa fa-bars"></i>
-                        </a>
-                        <ul class="menu">
-                            <li><a href=<a href=<?php echo site_url(); echo "/index.php"?>>Home</a></li>
-                            <li><a href="#">Catalogs</a></li>
-                            <li><a href="#">FAQs</a></li>
-                            <li><a href="#">Policies</a></li>
-                            <li><a href="#">About</a></li>
-                        </ul>
+                        <?php woocommerce_cart_totals(); ?>
+                        
                     </div> <!-- /.main-menu -->
                 </div> <!-- /.col-md-8 -->
             </div> <!-- /.row -->
