@@ -63,10 +63,10 @@
                     </div> <!-- /.logo -->
                 </div> <!-- /.col-md-4 -->
                 <div class="col-md-8 col-sm-6 col-xs-4">
-                    <div class="main-menu">
+
                         <?php woocommerce_cart_totals(); ?>
                         
-                    </div> <!-- /.main-menu -->
+                    
                 </div> <!-- /.col-md-8 -->
             </div> <!-- /.row -->
         </div> <!-- /.container -->
