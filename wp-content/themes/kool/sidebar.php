@@ -13,3 +13,4 @@ $recent_posts_array = get_posts($params); // получаем массив по�
 foreach( $recent_posts_array as $recent_post_single ) : // для каждого поста из массива
 echo '<a href="' . get_permalink( $recent_post_single ) . '">' . $recent_post_single->post_title . '</a> <br>'; // выводим ссылку
 endforeach; // конец цикла
+
