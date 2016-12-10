@@ -31,7 +31,9 @@
                             }
                             ?>
 
-
+                            <div class="btn-toolbar text-center">
+                                <a href=<?php echo site_url(); echo "/shop"?> role="button" class="btn btn-primary pull-right">View all products</a>
+                            </div>
 
                         </div> <!-- /.product-content -->
 

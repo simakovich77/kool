@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5a187b46-7d9f-49f0-a7e8-dc1389a09a3a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/kool/blocks/front-shop.php" afterPath="$PROJECT_DIR$/wp-content/themes/kool/blocks/front-shop.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/kool/woocommerce/content-product.php" afterPath="$PROJECT_DIR$/wp-content/themes/kool/woocommerce/content-product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/kool/woocommerce/loop/loop-end.php" afterPath="$PROJECT_DIR$/wp-content/themes/kool/woocommerce/loop/loop-end.php" />
     </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,7 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="content-product.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="content-product.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/kool/woocommerce/content-product.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="351">
@@ -65,11 +63,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="front-shop.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="front-shop.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/kool/blocks/front-shop.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/kool/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="49" column="54" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -123,9 +131,9 @@
         <option value="$PROJECT_DIR$/wp-content/themes/kool/css/style1.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/kool/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/content-product.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/kool/blocks/front-shop.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/kool/woocommerce/loop/loop-end.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/kool/woocommerce/content-product.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kool/blocks/front-shop.php" />
       </list>
     </option>
   </component>
@@ -391,12 +399,12 @@
       <workItem from="1479649600391" duration="1351000" />
       <workItem from="1480776809988" duration="6494000" />
       <workItem from="1480845016955" duration="1768000" />
-      <workItem from="1481367915769" duration="17812000" />
+      <workItem from="1481367915769" duration="18046000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62440000" />
+    <option name="totallyTimeSpent" value="62674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
@@ -516,14 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4233">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/kool/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-556">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -842,18 +842,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/kool/blocks/front-shop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kool/woocommerce/loop/result-count.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kool/woocommerce/loop/loop-start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -874,6 +874,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kool/woocommerce/content-product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="111" column="35" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kool/blocks/front-news.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
@@ -882,18 +890,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/kool/woocommerce/loop/loop-start.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kool/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        <state relative-caret-position="289">
+          <caret line="49" column="54" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/kool/woocommerce/content-product.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kool/blocks/front-shop.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="111" column="35" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
+        <state relative-caret-position="374">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
           <folding />
         </state>
       </provider>
