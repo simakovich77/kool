@@ -31,12 +31,20 @@
                             }
                             ?>
 
+
+
                         </div> <!-- /.product-content -->
+
+
                     </div> <!-- /.product-item -->
+
+
                 </div> <!-- /.col-md-3 -->
 
 
 
         </div> <!-- /.row -->
+
     </div> <!-- /.container -->
+
 </div> <!-- /.content-section -->
