@@ -83,7 +83,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 								 * @hooked woocommerce_template_loop_product_link_close - 5
 								 * @hooked woocommerce_template_loop_add_to_cart - 10
 								 */
-								do_action( 'woocommerce_after_shop_loop_item' );
+
 
 								?>
 
@@ -106,7 +106,11 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 
 								echo esc_attr( $product->id ); ?>" />
 
-								
+
+
+								<div class="btn-toolbar text-center">
+									<button type="submit" class="btn btn-primary pull-right">Add to cart</button>
+								</div>
 
 								<?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
 							</form>
