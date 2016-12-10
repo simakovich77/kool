@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 ?>
 <div class="cart_totals <?php if ( WC()->customer->has_calculated_shipping() ) echo 'calculated_shipping'; ?>">
-
+<div class="dd2">
 
 	<img src=<?php echo bloginfo(template_url); echo "/images/korzina1.png";?> alt=""></a>
 
@@ -106,4 +106,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	<?php do_action( 'woocommerce_after_cart_totals' ); ?>
 
+</div>
 </div>
