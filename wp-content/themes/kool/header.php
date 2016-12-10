@@ -90,7 +90,18 @@
                 </div> <!-- /.col-md-6 -->
 
             </div> <!-- /.row -->
+
         </div> <!-- /.container -->
+
     </div> <!-- /.main-nav -->
+
+    <div class="container">
+        <div class="row">
+            <p class="product-infos">
+    <?php if( function_exists('kama_breadcrumbs') ) kama_breadcrumbs(' » '); ?> </p>
+            </div>
+    </div>
+
+
 
 </header> <!-- /.site-header -->
