@@ -20,7 +20,7 @@
                         </div> <!-- /.product-thum -->
 
                         <div class="product-content">
-                            <div class="dd3">
+
 
                             <?php
                            
@@ -32,11 +32,12 @@
                             }
                             ?>
 
+
                             <div class="btn-toolbar text-center">
                                 <a href=<?php echo site_url(); echo "/shop"?> role="button" class="btn btn-primary pull-right">View all products</a>
                             </div>
 
-                        </div>
+
                             </div><!-- /.product-content -->
 
 

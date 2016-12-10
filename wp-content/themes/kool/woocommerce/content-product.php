@@ -39,6 +39,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
                         
 
                         <div class="product-content">
+							<div class="dd4">
 
 
 
@@ -87,12 +88,13 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 
 								?>
 
+							</div>
 
 
 
-
-
+							<
 							<form class="cart" method="post" enctype='multipart/form-data'>
+
 								<?php do_action( 'woocommerce_before_add_to_cart_button' ); ?>
 
 								<?php if ( ! $product->is_sold_individually() )
@@ -109,8 +111,12 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 
 
 								<div class="btn-toolbar text-center">
+
 									<button type="submit" class="btn btn-primary pull-right">Add to cart</button>
+
 								</div>
+
+
 
 								<?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
 							</form>
