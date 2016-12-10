@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a187b46-7d9f-49f0-a7e8-dc1389a09a3a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/kool/blocks/front-shop.php" afterPath="$PROJECT_DIR$/wp-content/themes/kool/blocks/front-shop.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/kool/css/style1.css" afterPath="$PROJECT_DIR$/wp-content/themes/kool/css/style1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/kool/woocommerce/content-product.php" afterPath="$PROJECT_DIR$/wp-content/themes/kool/woocommerce/content-product.php" />
-    </list>
+    <list default="true" id="5a187b46-7d9f-49f0-a7e8-dc1389a09a3a" name="Default" comment="" />
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="content-product.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="content-product.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/kool/woocommerce/content-product.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -65,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="front-shop.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="front-shop.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/kool/blocks/front-shop.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="361">
+              <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -135,9 +131,9 @@
         <option value="$PROJECT_DIR$/wp-content/themes/kool/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/kool/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/kool/woocommerce/loop/sale-flash.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/kool/blocks/front-shop.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/kool/woocommerce/content-product.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/kool/css/style1.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kool/blocks/front-shop.php" />
       </list>
     </option>
   </component>
@@ -385,15 +381,15 @@
       <workItem from="1479649600391" duration="1351000" />
       <workItem from="1480776809988" duration="6494000" />
       <workItem from="1480845016955" duration="1768000" />
-      <workItem from="1481367915769" duration="23437000" />
+      <workItem from="1481367915769" duration="23758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68065000" />
+    <option name="totallyTimeSpent" value="68386000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1924" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21512875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -860,14 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/kool/blocks/front-shop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kool/blocks/front-news.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
@@ -888,6 +876,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="108" column="68" selection-start-line="108" selection-start-column="68" selection-end-line="108" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kool/blocks/front-shop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
           <folding />
         </state>
       </provider>
