@@ -63,6 +63,13 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	 *
 	 * @hooked woocommerce_template_loop_product_title - 10
 	 */
+
+
+
+
+
+
+
 	do_action( 'woocommerce_shop_loop_item_title' );
 
 	/**
@@ -71,6 +78,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	 * @hooked woocommerce_template_loop_rating - 5
 	 * @hooked woocommerce_template_loop_price - 10
 	 */
+
 	do_action( 'woocommerce_after_shop_loop_item_title' );
 
 	/**
@@ -80,7 +88,13 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	 * @hooked woocommerce_template_loop_add_to_cart - 10
 	 */
 	do_action( 'woocommerce_after_shop_loop_item' );
+
+	do_action( 'woocommerce_add_to_cart');
+
 	?>
+							<br>
+							<a href="<?php echo 1; ?>" role="button" class="btn btn-primary pull-left">Add to cart</a>
+
 </div>
 </div>
 </div>
