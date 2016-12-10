@@ -42,83 +42,62 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 
 
 
-	<?php
-	/**
-	 * woocommerce_before_shop_loop_item hook.
-	 *
-	 * @hooked woocommerce_template_loop_product_link_open - 10
-	 */
-	do_action( 'woocommerce_before_shop_loop_item' );
 
-	/**
-	 * woocommerce_before_shop_loop_item_title hook.
-	 *
-	 * @hooked woocommerce_show_product_loop_sale_flash - 10
-	 * @hooked woocommerce_template_loop_product_thumbnail - 10
-	 */
-	do_action( 'woocommerce_before_shop_loop_item_title' );
+								<?php
+								/**
+								 * woocommerce_before_shop_loop_item hook.
+								 *
+								 * @hooked woocommerce_template_loop_product_link_open - 10
+								 */
+								do_action( 'woocommerce_before_shop_loop_item' );
 
-	/**
-	 * woocommerce_shop_loop_item_title hook.
-	 *
-	 * @hooked woocommerce_template_loop_product_title - 10
-	 */
+								/**
+								 * woocommerce_before_shop_loop_item_title hook.
+								 *
+								 * @hooked woocommerce_show_product_loop_sale_flash - 10
+								 * @hooked woocommerce_template_loop_product_thumbnail - 10
+								 */
+								do_action( 'woocommerce_before_shop_loop_item_title' );
 
+								/**
+								 * woocommerce_shop_loop_item_title hook.
+								 *
+								 * @hooked woocommerce_template_loop_product_title - 10
+								 */
+								do_action( 'woocommerce_shop_loop_item_title' );
 
+								/**
+								 * woocommerce_after_shop_loop_item_title hook.
+								 *
+								 * @hooked woocommerce_template_loop_rating - 5
+								 * @hooked woocommerce_template_loop_price - 10
+								 */
+								do_action( 'woocommerce_after_shop_loop_item_title' );
 
+								/**
+								 * woocommerce_after_shop_loop_item hook.
+								 *
+								 * @hooked woocommerce_template_loop_product_link_close - 5
+								 * @hooked woocommerce_template_loop_add_to_cart - 10
+								 */
+								do_action( 'woocommerce_after_shop_loop_item' );
 
-
-
-
-	do_action( 'woocommerce_shop_loop_item_title' );
-
-	/**
-	 * woocommerce_after_shop_loop_item_title hook.
-	 *
-	 * @hooked woocommerce_template_loop_rating - 5
-	 * @hooked woocommerce_template_loop_price - 10
-	 */
-
-	do_action( 'woocommerce_after_shop_loop_item_title' );
-
-	/**
-	 * woocommerce_after_shop_loop_item hook.
-	 *
-	 * @hooked woocommerce_template_loop_product_link_close - 5
-	 * @hooked woocommerce_template_loop_add_to_cart - 10
-	 */
-	do_action( 'woocommerce_after_shop_loop_item' );
-
-	do_action( 'woocommerce_add_to_cart');
-
-	?>
-							<br>
-
-							<form class="cart" method="post" enctype='multipart/form-data'>
-								<?php do_action( 'woocommerce_before_add_to_cart_button' ); ?>
-
-								<?php if ( ! $product->is_sold_individually() )
-									woocommerce_quantity_input( array(
-										'min_value' => apply_filters( 'woocommerce_quantity_input_min', 1, $product ),
-										'max_value' => apply_filters( 'woocommerce_quantity_input_max', $product->backorders_allowed() ? '' : $product->get_stock_quantity(), $product )
-									) );
 								?>
 
-								<input type="hidden" name="add-to-cart" value="<?php
-								$product->id='1';
-								echo esc_attr( $product->id ); ?>" />
-
-								<button type="submit" class="single_add_to_cart_button button alt"><?php echo $product->single_add_to_cart_text(); ?></button>
-
-								<?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
-							</form>
 
 
 
 
 
-							<?php do_action( 'woocommerce_after_add_to_cart_form' ); ?>
+
+
+
+
+
+
 
 </div>
+
+
 </div>
 </div>
