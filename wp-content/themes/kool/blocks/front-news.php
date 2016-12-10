@@ -53,7 +53,7 @@ $postp = get_posts( array(
                             <h5><a href="#"><?=get_the_title($posts); ?></a></h5>
                             <span class="price"><?=get_the_excerpt($posts); ?></span>
                             <div class="btn-toolbar text-center">
-                                <a href="<?php echo get_permalink($boat); ?>" role="button" class="btn btn-primary pull-right">Details</a>
+                                <a href="<?php echo get_permalink($posts); ?>" role="button" class="btn btn-primary pull-right">Details</a>
                             </div>
                         </div> <!-- /.product-content -->
                     </div> <!-- /.product-item -->

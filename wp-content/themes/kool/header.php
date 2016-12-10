@@ -25,6 +25,7 @@
     <link rel="stylesheet" href=<?php bloginfo(template_url); echo "/css/animate.css"?>>
     <link rel="stylesheet" href=<?php bloginfo(template_url); echo "/css/templatemo-misc.css"?>>
     <link rel="stylesheet" href=<?php bloginfo(template_url); echo "/css/templatemo-style.css"?>>
+    <link rel="stylesheet" href=<?php bloginfo(template_url); echo "/css/style1.css"?>>
 
     <script src=<?php bloginfo(template_url); echo "/js/vendor/modernizr-2.6.2.min.js"; ?>></script>
   

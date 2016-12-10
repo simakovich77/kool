@@ -52,6 +52,7 @@
 
                     <div class="col-md-4 col-sm-8">
                         <div class="product-item-2">
+                            <div class="dd1">
 
                             <?php
 
@@ -69,7 +70,7 @@
                             }
 ?>
 
-
+</div>
 
 
 <!--
